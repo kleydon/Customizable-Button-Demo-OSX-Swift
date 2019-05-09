@@ -1,6 +1,6 @@
 # Customizable-Button-Demo-OSX-Swift
 
-A highly customizable button class for cocoa / OSX, written in Swift. 
+Demo of a highly customizable button class for cocoa / OSX, written in Swift. 
 
 Permits customizing the following, via InterfaceBuilder or via code:
 
