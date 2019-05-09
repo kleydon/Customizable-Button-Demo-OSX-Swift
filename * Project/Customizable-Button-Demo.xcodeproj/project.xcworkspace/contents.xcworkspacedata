@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Customizeable-Swift-OSX-Button-Demo.xcodeproj">
+      location = "self:Customizable-Button-Demo.xcodeproj">
    </FileRef>
 </Workspace>

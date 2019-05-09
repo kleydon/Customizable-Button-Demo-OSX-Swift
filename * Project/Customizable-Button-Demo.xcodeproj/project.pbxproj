@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A20975C02283881F00DC6DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20975BF2283881F00DC6DE1 /* Assets.xcassets */; };
-		A20975C32283881F00DC6DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20975C12283881F00DC6DE1 /* Main.storyboard */; };
-		A20975D1228388BC00DC6DE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20975CD228388BC00DC6DE1 /* ViewController.swift */; };
-		A20975D2228388BC00DC6DE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20975CE228388BC00DC6DE1 /* AppDelegate.swift */; };
-		A20975D3228388BC00DC6DE1 /* QXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20975D0228388BC00DC6DE1 /* QXButton.swift */; };
-		A20975E62283926E00DC6DE1 /* box-monochrome.png in Resources */ = {isa = PBXBuildFile; fileRef = A20975E52283926D00DC6DE1 /* box-monochrome.png */; };
+		A20F1D102284A44F008DD543 /* Box.sketch in Resources */ = {isa = PBXBuildFile; fileRef = A20F1D0E2284A44F008DD543 /* Box.sketch */; };
+		A20F1D112284A44F008DD543 /* box-monochrome.png in Resources */ = {isa = PBXBuildFile; fileRef = A20F1D0F2284A44F008DD543 /* box-monochrome.png */; };
+		A291C2DF2284A3BA001962CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A291C2DE2284A3BA001962CB /* Assets.xcassets */; };
+		A291C2E22284A3BA001962CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A291C2E02284A3BA001962CB /* Main.storyboard */; };
+		A291C2F02284A3FD001962CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A291C2EC2284A3FD001962CB /* ViewController.swift */; };
+		A291C2F12284A3FD001962CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A291C2ED2284A3FD001962CB /* AppDelegate.swift */; };
+		A291C2F22284A3FD001962CB /* QXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A291C2EF2284A3FD001962CB /* QXButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A20975B82283881E00DC6DE1 /* Customizeable-Swift-OSX-Button-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Customizeable-Swift-OSX-Button-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A20975BF2283881F00DC6DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A20975C22283881F00DC6DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A20975C42283881F00DC6DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A20975C52283881F00DC6DE1 /* Customizeable_Swift_OSX_Button_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Customizeable_Swift_OSX_Button_Demo.entitlements; sourceTree = "<group>"; };
-		A20975CD228388BC00DC6DE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A20975CE228388BC00DC6DE1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A20975D0228388BC00DC6DE1 /* QXButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QXButton.swift; sourceTree = "<group>"; };
-		A20975E52283926D00DC6DE1 /* box-monochrome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-monochrome.png"; sourceTree = "<group>"; };
+		A20F1D0E2284A44F008DD543 /* Box.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = Box.sketch; sourceTree = "<group>"; };
+		A20F1D0F2284A44F008DD543 /* box-monochrome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-monochrome.png"; sourceTree = "<group>"; };
+		A291C2D72284A3BA001962CB /* Customizable-Button-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Customizable-Button-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A291C2DE2284A3BA001962CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A291C2E12284A3BA001962CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A291C2E32284A3BA001962CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A291C2E42284A3BA001962CB /* Customizable_Button_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Customizable_Button_Demo.entitlements; sourceTree = "<group>"; };
+		A291C2EC2284A3FD001962CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A291C2ED2284A3FD001962CB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A291C2EF2284A3FD001962CB /* QXButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QXButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A20975B52283881E00DC6DE1 /* Frameworks */ = {
+		A291C2D42284A3BA001962CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,105 +40,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A20975AF2283881E00DC6DE1 = {
+		A20F1D0D2284A44F008DD543 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A20975BA2283881E00DC6DE1 /* Customizeable-Swift-OSX-Button-Demo */,
-				A20975B92283881E00DC6DE1 /* Products */,
+				A20F1D0E2284A44F008DD543 /* Box.sketch */,
+				A20F1D0F2284A44F008DD543 /* box-monochrome.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A291C2CE2284A3BA001962CB = {
+			isa = PBXGroup;
+			children = (
+				A291C2D92284A3BA001962CB /* Customizable-Button-Demo */,
+				A291C2D82284A3BA001962CB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A20975B92283881E00DC6DE1 /* Products */ = {
+		A291C2D82284A3BA001962CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A20975B82283881E00DC6DE1 /* Customizeable-Swift-OSX-Button-Demo.app */,
+				A291C2D72284A3BA001962CB /* Customizable-Button-Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A20975BA2283881E00DC6DE1 /* Customizeable-Swift-OSX-Button-Demo */ = {
+		A291C2D92284A3BA001962CB /* Customizable-Button-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				A20975CB228388BC00DC6DE1 /* Source */,
-				A20975D6228389A100DC6DE1 /* Images */,
-				A20975BF2283881F00DC6DE1 /* Assets.xcassets */,
-				A20975C12283881F00DC6DE1 /* Main.storyboard */,
-				A20975C42283881F00DC6DE1 /* Info.plist */,
-				A20975C52283881F00DC6DE1 /* Customizeable_Swift_OSX_Button_Demo.entitlements */,
+				A291C2EA2284A3FD001962CB /* Source */,
+				A20F1D0D2284A44F008DD543 /* Images */,
+				A291C2DE2284A3BA001962CB /* Assets.xcassets */,
+				A291C2E02284A3BA001962CB /* Main.storyboard */,
+				A291C2E32284A3BA001962CB /* Info.plist */,
+				A291C2E42284A3BA001962CB /* Customizable_Button_Demo.entitlements */,
 			);
-			path = "Customizeable-Swift-OSX-Button-Demo";
+			path = "Customizable-Button-Demo";
 			sourceTree = "<group>";
 		};
-		A20975CB228388BC00DC6DE1 /* Source */ = {
+		A291C2EA2284A3FD001962CB /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				A20975CC228388BC00DC6DE1 /* Demo */,
-				A20975CF228388BC00DC6DE1 /* QXButton */,
+				A291C2EB2284A3FD001962CB /* Demo */,
+				A291C2EE2284A3FD001962CB /* QXButton */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		A20975CC228388BC00DC6DE1 /* Demo */ = {
+		A291C2EB2284A3FD001962CB /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				A20975CD228388BC00DC6DE1 /* ViewController.swift */,
-				A20975CE228388BC00DC6DE1 /* AppDelegate.swift */,
+				A291C2EC2284A3FD001962CB /* ViewController.swift */,
+				A291C2ED2284A3FD001962CB /* AppDelegate.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		A20975CF228388BC00DC6DE1 /* QXButton */ = {
+		A291C2EE2284A3FD001962CB /* QXButton */ = {
 			isa = PBXGroup;
 			children = (
-				A20975D0228388BC00DC6DE1 /* QXButton.swift */,
+				A291C2EF2284A3FD001962CB /* QXButton.swift */,
 			);
 			path = QXButton;
-			sourceTree = "<group>";
-		};
-		A20975D6228389A100DC6DE1 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				A20975E52283926D00DC6DE1 /* box-monochrome.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A20975B72283881E00DC6DE1 /* Customizeable-Swift-OSX-Button-Demo */ = {
+		A291C2D62284A3BA001962CB /* Customizable-Button-Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A20975C82283881F00DC6DE1 /* Build configuration list for PBXNativeTarget "Customizeable-Swift-OSX-Button-Demo" */;
+			buildConfigurationList = A291C2E72284A3BA001962CB /* Build configuration list for PBXNativeTarget "Customizable-Button-Demo" */;
 			buildPhases = (
-				A20975B42283881E00DC6DE1 /* Sources */,
-				A20975B52283881E00DC6DE1 /* Frameworks */,
-				A20975B62283881E00DC6DE1 /* Resources */,
+				A291C2D32284A3BA001962CB /* Sources */,
+				A291C2D42284A3BA001962CB /* Frameworks */,
+				A291C2D52284A3BA001962CB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Customizeable-Swift-OSX-Button-Demo";
-			productName = "Customizeable-Swift-OSX-Button-Demo";
-			productReference = A20975B82283881E00DC6DE1 /* Customizeable-Swift-OSX-Button-Demo.app */;
+			name = "Customizable-Button-Demo";
+			productName = "Customizable-Button-Demo";
+			productReference = A291C2D72284A3BA001962CB /* Customizable-Button-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A20975B02283881E00DC6DE1 /* Project object */ = {
+		A291C2CF2284A3BA001962CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Krispin Leydon";
 				TargetAttributes = {
-					A20975B72283881E00DC6DE1 = {
+					A291C2D62284A3BA001962CB = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = A20975B32283881E00DC6DE1 /* Build configuration list for PBXProject "Customizeable-Swift-OSX-Button-Demo" */;
+			buildConfigurationList = A291C2D22284A3BA001962CB /* Build configuration list for PBXProject "Customizable-Button-Demo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,47 +147,48 @@
 				en,
 				Base,
 			);
-			mainGroup = A20975AF2283881E00DC6DE1;
-			productRefGroup = A20975B92283881E00DC6DE1 /* Products */;
+			mainGroup = A291C2CE2284A3BA001962CB;
+			productRefGroup = A291C2D82284A3BA001962CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A20975B72283881E00DC6DE1 /* Customizeable-Swift-OSX-Button-Demo */,
+				A291C2D62284A3BA001962CB /* Customizable-Button-Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A20975B62283881E00DC6DE1 /* Resources */ = {
+		A291C2D52284A3BA001962CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20975C02283881F00DC6DE1 /* Assets.xcassets in Resources */,
-				A20975E62283926E00DC6DE1 /* box-monochrome.png in Resources */,
-				A20975C32283881F00DC6DE1 /* Main.storyboard in Resources */,
+				A291C2DF2284A3BA001962CB /* Assets.xcassets in Resources */,
+				A291C2E22284A3BA001962CB /* Main.storyboard in Resources */,
+				A20F1D112284A44F008DD543 /* box-monochrome.png in Resources */,
+				A20F1D102284A44F008DD543 /* Box.sketch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A20975B42283881E00DC6DE1 /* Sources */ = {
+		A291C2D32284A3BA001962CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20975D3228388BC00DC6DE1 /* QXButton.swift in Sources */,
-				A20975D2228388BC00DC6DE1 /* AppDelegate.swift in Sources */,
-				A20975D1228388BC00DC6DE1 /* ViewController.swift in Sources */,
+				A291C2F22284A3FD001962CB /* QXButton.swift in Sources */,
+				A291C2F12284A3FD001962CB /* AppDelegate.swift in Sources */,
+				A291C2F02284A3FD001962CB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A20975C12283881F00DC6DE1 /* Main.storyboard */ = {
+		A291C2E02284A3BA001962CB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A20975C22283881F00DC6DE1 /* Base */,
+				A291C2E12284A3BA001962CB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -192,7 +196,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A20975C62283881F00DC6DE1 /* Debug */ = {
+		A291C2E52284A3BA001962CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		A20975C72283881F00DC6DE1 /* Release */ = {
+		A291C2E62284A3BA001962CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -307,44 +311,40 @@
 			};
 			name = Release;
 		};
-		A20975C92283881F00DC6DE1 /* Debug */ = {
+		A291C2E82284A3BA001962CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Customizeable-Swift-OSX-Button-Demo/Customizeable_Swift_OSX_Button_Demo.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_ENTITLEMENTS = "Customizable-Button-Demo/Customizable_Button_Demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QD6TTVM77K;
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Customizable-Button-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.quixotry.Customizeable-Swift-OSX-Button-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quixotry.Customizable-Button-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		A20975CA2283881F00DC6DE1 /* Release */ = {
+		A291C2E92284A3BA001962CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Customizeable-Swift-OSX-Button-Demo/Customizeable_Swift_OSX_Button_Demo.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_ENTITLEMENTS = "Customizable-Button-Demo/Customizable_Button_Demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QD6TTVM77K;
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Customizable-Button-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.quixotry.Customizeable-Swift-OSX-Button-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quixotry.Customizable-Button-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -352,25 +352,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A20975B32283881E00DC6DE1 /* Build configuration list for PBXProject "Customizeable-Swift-OSX-Button-Demo" */ = {
+		A291C2D22284A3BA001962CB /* Build configuration list for PBXProject "Customizable-Button-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A20975C62283881F00DC6DE1 /* Debug */,
-				A20975C72283881F00DC6DE1 /* Release */,
+				A291C2E52284A3BA001962CB /* Debug */,
+				A291C2E62284A3BA001962CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A20975C82283881F00DC6DE1 /* Build configuration list for PBXNativeTarget "Customizeable-Swift-OSX-Button-Demo" */ = {
+		A291C2E72284A3BA001962CB /* Build configuration list for PBXNativeTarget "Customizable-Button-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A20975C92283881F00DC6DE1 /* Debug */,
-				A20975CA2283881F00DC6DE1 /* Release */,
+				A291C2E82284A3BA001962CB /* Debug */,
+				A291C2E92284A3BA001962CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A20975B02283881E00DC6DE1 /* Project object */;
+	rootObject = A291C2CF2284A3BA001962CB /* Project object */;
 }
