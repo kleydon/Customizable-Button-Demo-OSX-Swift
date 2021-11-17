@@ -30,7 +30,7 @@ class ViewController: NSViewController {
     @IBOutlet weak var button: QXButton!
     
     @IBAction func buttonPressed(_ sender: Any) {
-        print("Click!")
+        print("Clicked!")
     }
     
     

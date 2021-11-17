@@ -14,6 +14,8 @@
 		A291C2F02284A3FD001962CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A291C2EC2284A3FD001962CB /* ViewController.swift */; };
 		A291C2F12284A3FD001962CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A291C2ED2284A3FD001962CB /* AppDelegate.swift */; };
 		A291C2F22284A3FD001962CB /* QXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A291C2EF2284A3FD001962CB /* QXButton.swift */; };
+		A2D4541D274579660021F9AB /* box-black.png in Resources */ = {isa = PBXBuildFile; fileRef = A2D4541B274579650021F9AB /* box-black.png */; };
+		A2D4541E274579660021F9AB /* box-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = A2D4541C274579650021F9AB /* box-gray.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		A291C2EC2284A3FD001962CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A291C2ED2284A3FD001962CB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A291C2EF2284A3FD001962CB /* QXButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QXButton.swift; sourceTree = "<group>"; };
+		A2D4541B274579650021F9AB /* box-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-black.png"; sourceTree = "<group>"; };
+		A2D4541C274579650021F9AB /* box-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-gray.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXGroup;
 			children = (
 				A20F1D0E2284A44F008DD543 /* Box.sketch */,
+				A2D4541B274579650021F9AB /* box-black.png */,
+				A2D4541C274579650021F9AB /* box-gray.png */,
 				A20F1D0F2284A44F008DD543 /* box-monochrome.png */,
 			);
 			path = Images;
@@ -162,9 +168,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D4541E274579660021F9AB /* box-gray.png in Resources */,
 				A291C2DF2284A3BA001962CB /* Assets.xcassets in Resources */,
 				A291C2E22284A3BA001962CB /* Main.storyboard in Resources */,
 				A20F1D112284A44F008DD543 /* box-monochrome.png in Resources */,
+				A2D4541D274579660021F9AB /* box-black.png in Resources */,
 				A20F1D102284A44F008DD543 /* Box.sketch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,9 +324,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Customizable-Button-Demo/Customizable_Button_Demo.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QD6TTVM77K;
 				INFOPLIST_FILE = "Customizable-Button-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -335,9 +344,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Customizable-Button-Demo/Customizable_Button_Demo.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QD6TTVM77K;
 				INFOPLIST_FILE = "Customizable-Button-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
